@@ -29,20 +29,20 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm AnyDL Bot
+               text="""<b>Hᴇʟʟᴏᴡ I ᴀᴍ Dᴏᴡɴʟᴏᴀᴅᴇʀ Cᴀᴛ 😸
 
-I can download video or audio from Youtube, Pornhub and Xhamster. Made by @JEBotZ.
+I ᴄᴀɴ Dᴏᴡɴʟᴏᴀᴅ Dɪғғᴇʀᴇɴᴛ ᴛʏᴘᴇs ᴏғ Vɪᴅᴇᴏs ғʀᴏᴍ Yᴏᴜᴛᴜʙᴇ ᴀɴᴅ ᴏᴛʜᴇʀ Wᴇʙsɪᴛᴇs ᴀs ғᴀsᴛ ᴀs ɪ ᴄᴀɴ. Exᴄʟᴜsɪᴠᴇʟʏ Cʀᴇᴀᴛᴇᴅ ʙʏ @CatX_bot_hub.
 
-Hit help button to find out more about how to use me</b>""",   
+Hɪᴛ Hᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏKɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍʏ Cᴀᴘᴀʙɪʟɪᴛɪᴇs...</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Help", callback_data="help"),
+                                            "нєℓρ", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
+                                            "υρ∂αтєѕ", url="https://t.me/Cat_Telegram_Projectd")
                                     ],[
                                       InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "¢яєαтσя", url="https://t.me/Readmeab")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -53,20 +53,20 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>AnyDL Bot Help!
+               text="""<b>Cᴀᴛ Bᴏᴛ ʜᴇʟᴘ ᴅᴇsᴋ..!
 
-Just send a Youtube, Pornhub or Xhamster video url to download it in video or audio format!
+𝐉𝐮𝐬𝐭 𝐬𝐞𝐧𝐝 𝐚 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 𝐔𝐫𝐥 𝐨𝐫 𝐚𝐧𝐲 𝐰𝐞𝐛 𝐕𝐢𝐝𝐞𝐨/𝐀𝐮𝐝𝐢𝐨 𝐮𝐫𝐥.𝐈𝐭 𝐰𝐢𝐥𝐥 𝐚𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐜𝐚𝐥𝐥𝐲 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐐𝐮𝐢𝐜𝐤𝐥𝐲..!
 
-Join @Infinity_BOTs</b>""",
+Join @CatX_bot_hub For Support and More bots</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Back", callback_data="start"),
+                                            "вα¢к", callback_data="start"),
                                         InlineKeyboardButton(
-                                            "About", callback_data="about"),
+                                            "αвσυт мє", callback_data="about"),
                                   ],[
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "ѕυρρσят", url="https://t.me/CatX_bot_hub")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -77,21 +77,21 @@ async def about(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>About AnyDL Bot!</b>
+               text="""<b>Aʙᴏᴜᴛ Dᴏᴡɴʟᴏᴀᴅᴇʀ Cᴀᴛ</b>
 
-<b>♞ Developer:</b> <a href="https://t.me/ImJanindu">Jason</a>
+<b> ¢яєαтσя:</b> <a href="https://t.me/Cat_of_TelegramX</a>
 
-<b>♞ Support:</b> <a href="https://t.me/InfinityBOTs_Support">Infinity BOTs Support</a>
+<b> ѕυρρσят:</b> <a href="https://t.me/CatX_bot_hub">CatX bot Hub</a>
 
-<b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
+<b> ¢υяяєитℓу яυииιиg:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>Join @Infinity_BOTs</b>""",
+<b>Join @CatX_bot_hub</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Back", callback_data="help"),
+                                            "вα¢к", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "ѕσυя¢є ¢σ∂є", url="https://github.com/Repo_tharam_mone")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -352,7 +352,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @Infinity_BOTs
+Join @CatX_bot_hub
 """
 )
 
