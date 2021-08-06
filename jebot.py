@@ -39,7 +39,7 @@ Hɪᴛ Hᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏKɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍ
                                         InlineKeyboardButton(
                                             "нєℓρ", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "υρ∂αтєѕ", url="https://t.me/Cat_Telegram_Projectd")
+                                            "υρ∂αтєѕ", url="https://t.me/Cat_Telegram_Projects")
                                     ],[
                                       InlineKeyboardButton(
                                             "¢яєαтσя", url="https://t.me/Readmeab")
@@ -111,7 +111,7 @@ async def ytdl_with_button(c: Client, message: Message):
             if user.status == "kicked":
                 await c.send_message(
                     chat_id=message.chat.id,
-                    text="Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/InfinityBots_Support).",
+                    text="Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/CatX_bot_hub).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -133,7 +133,7 @@ async def ytdl_with_button(c: Client, message: Message):
         except Exception:
             await c.send_message(
                 chat_id=message.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/InfinityBots_Support).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/CatX_bot_hub).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
